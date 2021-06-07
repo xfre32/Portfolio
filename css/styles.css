@@ -1,0 +1,41 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.navbar-dark {
+    background-color: #37414f;
+}
+
+.jumbotron {
+    margin: 0 auto;
+    padding: 70px 30px;
+    background-color: #222831;
+    color: floralwhite;
+    border-radius: 0; 
+}
+
+span {
+    font-family: 'Kiwi Maru', serif;
+}
+
+h1 {
+    font-family: 'Kiwi Maru', serif;
+}
+
+h2 {
+    font-family: 'Kiwi Maru', serif;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #37414f;
+    color: floralwhite;
+}
+
+.row-content {
+    padding: 5%;
+}
+
+
+
