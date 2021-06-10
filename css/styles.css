@@ -1,40 +1,74 @@
 body {
     font-family: 'Work Sans', sans-serif;
-    
+    font-size: 1.3rem;
 }
 
-.navbar-dark {
-    background-color: #37414f;
-}
+/* .navbar-light {
+    background-color: #f9f6f7;
+} */
 
 .jumbotron {
     margin: 0 auto;
     padding: 70px 30px;
-    background-color: #222831;
-    color: floralwhite;
+    background-color: #f8f9fa;
+    color: #222831;
     border-radius: 0; 
 }
 
 span {
-    font-family: 'Kiwi Maru', serif;
+    font-family: 'Work Sans', sans-serif;
+
 }
 
-h1 {
-    font-family: 'Kiwi Maru', serif;
+small {
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 600;
 }
 
-h2 {
+.navbar-text {
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 100;
+}
+
+.nav-link {
+    color: #222831;
+}
+
+.nav-link:hover {
+    background-color: #e7e6e1;
+    /* color: #0d6efd; */
+    color: #222831;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #222831;
+}
+
+h1, h2, h3, h4 {
     font-family: 'Kiwi Maru', serif;
     font-weight: 600;
 }
 
+.progress {
+    background-color: #e7e6e1;
+}
+
+.progress-bar {
+    background-color: #1f3c88;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
 footer {
-    background-color: #37414f;
-    color: floralwhite;
+    font-family: 'Kiwi Maru', serif;
+    /* background-color: #f9f6f7; */
+    color: #222831;
 }
 
 .row-content {
-    padding: 5%;
+    padding: 2%;
 }
 
 
