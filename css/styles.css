@@ -64,6 +64,18 @@ h6 {
     font-weight: 600;
 }
 
+.h-bg {
+    font-family: 'Kiwi Maru', serif;
+    background-color: #f8f9fa;
+    border-radius: 0.3rem;
+    width: fit-content;
+}
+
+.certA {
+    text-decoration: none;
+    color: #222831;
+}
+
 .progress {
     background-color: #e7e6e1;
 }
