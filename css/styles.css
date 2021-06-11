@@ -30,6 +30,11 @@ small {
     font-weight: 600;
 }
 
+mark {
+    background-color: #f8f9fa;
+    border-radius: 0.3rem;
+}
+
 .navbar-text {
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 100;
@@ -54,12 +59,17 @@ h1, h2, h3, h4 {
     font-weight: 600;
 }
 
+h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
 .progress {
     background-color: #e7e6e1;
 }
 
 .progress-bar {
-    background-color: #1f3c88;
+    background-color: #1f3c88; 
 }
 
 .card {
@@ -104,10 +114,47 @@ footer {
 footer a {
     font-family: 'Work Sans', sans-serif;
     vertical-align: middle;
+    text-decoration: none;
 }
 
 footer .btn {
     border: none;
+}
+
+footer .btn:hover {
+    color: #f8f9fac9;
+}
+
+footer mark {
+    font-size: smaller;
+    background-color: #e7e6e1;
+    border-radius: 0.3rem;
+
+}
+
+.link {
+    background-color: #0072b1;
+    color: white;
+}
+
+.twit {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.at {
+    background-color: #EA4335;
+    color: white;
+}
+
+.red {
+    background-color: #ff4301;
+    color: white;
+}
+
+.gith {
+    background-color: #666666;
+    color: white;
 }
 
 .row-content {
