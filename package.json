@@ -13,6 +13,7 @@
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.1",
     "bootstrap-social": "^5.1.1",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "waypoints": "^4.0.1"
   }
 }

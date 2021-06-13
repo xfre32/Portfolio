@@ -1,21 +1,12 @@
 body {
     font-family: 'Work Sans', sans-serif;
-    font-size: 1.3rem;
-    /* background-color: #f8f9fa; */
-/* background-image: url("https://www.transparenttextures.com/patterns/escheresque.png"); */
-
+    font-size: 1.2rem;
 }
-
-/* .navbar-light {
-    background-color: #f9f6f7;
-} */
 
 .jumbotron {
     margin: 0 auto;
     padding: 70px 30px;
     background-color: #f8f9fa;
-    /* background-image: url("https://www.transparenttextures.com/patterns/escheresque.png"); */
-
     color: #222831;
     border-radius: 0; 
 }
@@ -46,7 +37,6 @@ mark {
 
 .nav-link:hover {
     background-color: #e7e6e1;
-    /* color: #0d6efd; */
     color: #222831;
 }
 
@@ -84,25 +74,29 @@ h6 {
     background-color: #1f3c88; 
 }
 
-.card {
-    /* background-color: #00000008; */
-    border: none;
-    border-radius: 1rem;
+/* .progress .progress-bar .trans {
+    -webkit-transition: width 6s ease-in-out;
+    -moz-transition: width 6s ease-in-out;
+    -ms-transition: width 6s ease-in-out;
+    -o-transition: width 6s ease-in-out;
+    transition: width 6s ease-in-out;
+} */
 
-  
+.card {
+    border-color: #e7e6e1;
+    border-radius: 0.6rem;  
 }
   
 .card-header:first-child {
     border-bottom: none;
-    /* background-color: rgba(0,0,0,.03); */
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
   
 }
 
 .card-img-top {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
     background-color: #f8f9fa;
 }
 
@@ -112,8 +106,8 @@ h6 {
 }
   
 .card-body {
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
     background-color: #f8f9fa;
 }
 

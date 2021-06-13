@@ -16,23 +16,19 @@
 }
 
 .card {
-  /* background-color: #00000008; */
-  border: none;
-  /* border-radius: 1rem; */
-
+  border-color: #e7e6e1;
 }
 
 .card-header:first-child {
   border-bottom: none;
-  /* background-color: rgba(0,0,0,.03); */
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
 
 }
 
 .card-body {
-  border-bottom-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 0.6rem;
+  border-bottom-left-radius: 0.6rem;
 }
 
 /* Container around content */
