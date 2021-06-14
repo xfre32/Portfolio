@@ -85,9 +85,11 @@ h6 {
 .card {
     border-color: #e7e6e1;
     border-radius: 0.6rem;  
+    background-color: #f8f9fa;
 }
   
 .card-header:first-child {
+    background-color: #f8f9fa;
     border-bottom: none;
     border-top-left-radius: 0.6rem;
     border-top-right-radius: 0.6rem;
@@ -101,14 +103,24 @@ h6 {
 }
 
 .project-img {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+    border-radius: 0.6rem;
 }
   
 .card-body {
     border-bottom-right-radius: 0.6rem;
     border-bottom-left-radius: 0.6rem;
     background-color: #f8f9fa;
+}
+
+.prj .card-body {
+    border-radius: 0;
+}
+
+.prj .card-footer {
+    background-color: #f8f9fa;
+    border-top: none;
+    border-bottom-right-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
 }
 
 footer {
