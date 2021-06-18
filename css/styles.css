@@ -13,7 +13,6 @@ body {
 
 span {
     font-family: 'Work Sans', sans-serif;
-
 }
 
 small {
@@ -31,17 +30,20 @@ mark {
     font-weight: 100;
 }
 
-.nav-link {
+.navbar-light .navbar-nav .nav-link {
     color: #222831;
 }
 
-.nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover {
     background-color: #e7e6e1;
     color: #222831;
+    border-radius: 0.25rem;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     background-color: #222831;
+    color: #f8f9fa;
+    border-radius: 0.25rem;
 }
 
 h1, h2, h3, h4 {
@@ -92,8 +94,7 @@ h6 {
     background-color: #f8f9fa;
     border-bottom: none;
     border-top-left-radius: 0.6rem;
-    border-top-right-radius: 0.6rem;
-  
+    border-top-right-radius: 0.6rem;  
 }
 
 .card-img-top {
@@ -103,7 +104,7 @@ h6 {
 }
 
 .project-img {
-    border-radius: 0.6rem;
+    border-radius: 0.6rem;    
 }
   
 .card-body {
@@ -140,14 +141,7 @@ footer .btn {
 }
 
 footer .btn:hover {
-    color: #f8f9fac9;
-}
-
-footer mark {
-    font-size: smaller;
-    background-color: #e7e6e1;
-    border-radius: 0.3rem;
-
+    color: #222831;
 }
 
 .link {
@@ -171,13 +165,16 @@ footer mark {
 }
 
 .gith {
-    background-color: #666666;
+    background-color: #6e5494;
     color: white;
 }
 
-.row-content {
-    padding: 2%;
+footer mark {
+    font-size: smaller;
+    background-color: #e7e6e1;
+    border-radius: 0.3rem;
 }
+
 
 
 
