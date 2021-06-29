@@ -3,6 +3,12 @@ body {
     font-size: 1.2rem;
 }
 
+section {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    margin: 0 auto;
+}
+
 .jumbotron {
     margin: 0 auto;
     padding: 70px 30px;
@@ -156,6 +162,11 @@ footer .btn:hover {
 
 .at {
     background-color: #EA4335;
+    color: white;
+}
+
+.tel {
+    background-color: teal;
     color: white;
 }
 
