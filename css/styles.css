@@ -146,38 +146,63 @@ footer .btn {
     border: none;
 }
 
-footer .btn:hover {
+/* footer .btn:hover {
     color: #222831;
-}
+} */
 
 .link {
     background-color: #0072b1;
-    color: white;
+    color: #f8f9fa;
+}
+
+.link:hover {
+    color: #0072b1;
+    background-color: #f8f9fa;
 }
 
 .twit {
     background-color: #1da1f2;
-    color: white;
+    color: #f8f9fa;
+}
+
+.twit:hover {
+    background-color: #f8f9fa;
+    color: #1da1f2;
 }
 
 .at {
     background-color: #EA4335;
-    color: white;
+    color: #f8f9fa;
+}
+
+.at:hover {
+    color: #EA4335;
+    background-color: #f8f9fa;
 }
 
 .tel {
     background-color: teal;
-    color: white;
+    color: #f8f9fa;
 }
 
 .red {
     background-color: #ff4301;
-    color: white;
+    color: #f8f9fa;
+}
+
+.red:hover {
+    background-color: #f8f9fa;
+    color: #ff4301;
 }
 
 .gith {
     background-color: #6e5494;
-    color: white;
+    color: #f8f9fa;
+}
+
+.gith:hover {
+    color: #6e5494;
+    background-color: #f8f9fa;
 }
 
 footer mark {
