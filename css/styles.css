@@ -82,14 +82,6 @@ h6 {
     background-color: #1f3c88; 
 }
 
-/* .progress .progress-bar .trans {
-    -webkit-transition: width 6s ease-in-out;
-    -moz-transition: width 6s ease-in-out;
-    -ms-transition: width 6s ease-in-out;
-    -o-transition: width 6s ease-in-out;
-    transition: width 6s ease-in-out;
-} */
-
 .card {
     border-color: #e7e6e1;
     border-radius: 0.6rem;  
@@ -142,74 +134,10 @@ footer a {
     text-decoration: none;
 }
 
-footer .btn {
-    border: none;
+footer a:hover {
+    color: #e7e6e1;
 }
 
-/* footer .btn:hover {
-    color: #222831;
-} */
-
-.link {
-    background-color: #0072b1;
-    color: #f8f9fa;
-}
-
-.link:hover {
-    color: #0072b1;
-    background-color: #f8f9fa;
-}
-
-.twit {
-    background-color: #1da1f2;
-    color: #f8f9fa;
-}
-
-.twit:hover {
-    background-color: #f8f9fa;
-    color: #1da1f2;
-}
-
-.at {
-    background-color: #EA4335;
-    color: #f8f9fa;
-}
-
-.at:hover {
-    color: #EA4335;
-    background-color: #f8f9fa;
-}
-
-.tel {
-    background-color: teal;
-    color: #f8f9fa;
-}
-
-.red {
-    background-color: #ff4301;
-    color: #f8f9fa;
-}
-
-.red:hover {
-    background-color: #f8f9fa;
-    color: #ff4301;
-}
-
-.gith {
-    background-color: #6e5494;
-    color: #f8f9fa;
-}
-
-.gith:hover {
-    color: #6e5494;
-    background-color: #f8f9fa;
-}
-
-footer mark {
-    font-size: smaller;
-    background-color: #e7e6e1;
-    border-radius: 0.3rem;
-}
 
 
 
